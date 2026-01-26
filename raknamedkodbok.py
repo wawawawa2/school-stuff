@@ -62,7 +62,7 @@ def clear():
         os.system('clear')
 
 first_run = True
-while True: # the code in this loop might not look pretty but it works````
+while True: # the code in this loop might not look pretty but it works
     clear()
     if not first_run:
         print('the command line has been cleared, but the system hasn\'t been restarted so some variables might still be in the memory, if you want to remove it, restart the system (this program choosing system, not your OS)')
