@@ -1,0 +1,11 @@
+import turtle
+
+def DRAW_SHAPE(SIDES, SIDE_LENGTH, TURTL):
+    for i in range(SIDES):
+        TURTL.forward(SIDE_LENGTH)
+        TURTL.left(360/SIDES)
+
+def ANROPA_FUNKTIONEN(TURTLE):
+    SIDES = int(input('HOW MANY SIDES (TYPE INTEGER): '))
+    SIDE_LENGTH = int(input('HOW LONG WILL THE EACH SIDE BE (TYPE INTEGER): '))
+    DRAW_SHAPE(SIDES, SIDE_LENGTH, TURTLE)
